@@ -16,7 +16,7 @@ model=load_model('model_train.h5')
 
 import pickle
 import json
-with open('Artificial_Inteligent\Chatbot\intents.json') as json_data:
+with open('intents.json') as json_data:
     intents = json.load(json_data)
 data = pickle.load(open("training_data", "rb"))
 words_list = data['words']
