@@ -12,7 +12,7 @@ from keras.models import load_model
  
 
 
-model=load_model('https://github.com/haviet12/web_app/blob/main/model_train.h5')
+model=load_model('model_train.h5')
 
 import pickle
 import json
